@@ -1,0 +1,192 @@
+* {
+  box-sizing: border-box;
+}
+
+
+@font-face {
+  font-family: "Gilroy medium";
+  src: url("../assets/fonts/Gilroy-Medium.ttf") format("ttf");
+  font-style: normal;
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "Gilroy bold";
+  src: url("../assets/fonts/Gilroy-Bold.ttf") format("ttf");
+  font-style: normal;
+  font-weight: 700;
+}
+
+body {
+  margin: 0 auto;
+  text-align: center;
+  font-family: "Gilroy medium", sans-serif;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+header {
+  max-width: 970px;
+  margin: 0 auto
+}
+
+.navigation {
+  display: flex;
+  justify-content: space-between;
+}
+
+a {
+  display: block;
+  text-align: center;
+  font-size: 18px;
+  color: rgba(130, 130, 130, 1);
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+a:hover {
+  color: rgba(7, 7, 7, 1);
+}
+
+h1 {
+  font-size: 48px;
+  font-weight: 700;
+  text-align: left;
+  margin: 15px 0px 50px 5px;
+}
+
+h2 {
+  margin-top: 100px;
+  font-size: 34px;
+}
+
+p {
+  font-size: 18px;
+}
+
+.home__description {
+  display: flex;
+  justify-content: space-between;
+  align-items: center
+}
+
+.home__lang {
+  writing-mode:vertical-rl;
+  transform: rotate(180deg);
+}
+
+.home__lang a {
+  display: inline;
+  padding: 0;
+}
+
+.image-wrapper {
+  margin: auto;
+  max-width: 970px;
+}
+
+#home {
+  display: inline-block;
+  margin-bottom: 100px;
+}
+
+#about-me {
+  background: rgba(246, 246, 246, 1);
+  text-align: center;
+  padding: 35px 0px 100px 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#skills {
+  padding: 35px 0px 90px 0px;
+}
+
+#portfolio {
+  background: rgba(246, 246, 246, 1);
+}
+
+#about-me p {
+  max-width: 480px;
+  margin-top: 40px;
+}
+
+#portfolio p {
+  text-decoration: underline;
+  margin-bottom: 50px;
+}
+
+#contacts p {
+  margin: 20px 0px 50px 0px;
+}
+
+.social-networks p {
+  color: #828282
+}
+
+.my-programs {
+  display: inline-flex;
+}
+
+.portfolio__card p {
+  margin-top: 45px;
+}
+
+.my-programs__card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 70px 0 70px;
+}
+
+.my-programs__card p {
+  font-weight: 700;
+  color: rgba(130, 130, 130, 1);
+  margin-bottom: 50px;
+  max-width: 100px;
+}
+
+.send-message-btn {
+  justify-content: center;
+  align-items: center;
+  border: none;
+  width: 180px;
+  height: 44px;
+  background-color: black;
+  color: white;
+  border-radius: 100px;
+  font-weight: 700;
+  font-size: 18px;
+  letter-spacing: 2px;
+}
+
+
+
+.icons-wrapper img {
+  margin: 85px 20px 20px 20px;
+}
+
+
+.fa {
+  color: gray;
+}
+
+.checked {
+  color: black;
+}
+
+.portfolio__card img,
+#home img {
+  width: 100%;
+}
+
+hr {
+  max-width: 970px;
+}
