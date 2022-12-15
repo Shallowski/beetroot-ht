@@ -1,0 +1,168 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Montserrat";
+  font-size: 16px;
+  font-weight: 400;
+  text-align: center;
+}
+
+header,
+section,
+footer {
+  padding: 0 120px;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__nav > li {
+  display: inline-block;
+}
+
+li a {
+  display: block;
+  text-align: center;
+  margin: 26px 15px;
+  color: #2f281e;
+  text-decoration: none;
+}
+
+li a:hover {
+  color: #ff9900;
+}
+
+button {
+  width: 110px;
+  height: 46px;
+  background-color: #ff9900;
+  color: white;
+  border-radius: 5px;
+  border-style: solid;
+  border-color: #ff9900;
+  margin: 5px 10px;
+}
+
+button:hover {
+  background-color: white;
+  color: black;
+  border-color: #bcd0e5;
+}
+
+button.btn-big {
+  width: 180px;
+}
+
+section {
+  margin: 40px 0;
+}
+
+section:first-child {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+section:nth-child(2) {
+  background-image: url(../assets/image/bg.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: bottom;
+}
+
+.section-wrapper {
+  display: flex;
+  justify-content: space-between;
+  margin: 70px 0;
+}
+
+h1 {
+  font-weight: 700;
+  font-size: 44px;
+  margin: 20px 0;
+}
+
+h2 {
+  font-weight: 700;
+  font-size: 36px;
+  margin: 20px 0;
+}
+h3 {
+  font-weight: 600;
+  font-size: 22px;
+  margin: 15px 0;
+}
+
+p {
+  margin: 10px 0;
+}
+
+h2.short {
+  max-width: 530px;
+  display: inline-block;
+  text-align: center;
+}
+
+.content-block {
+  max-width: 500px;
+  text-align: left;
+}
+
+.content-block button {
+  margin-left: 0;
+}
+
+.section__card {
+  text-align: left;
+  max-width: 270px;
+}
+
+section .btn-big {
+  margin-bottom: 70px;
+}
+
+footer {
+  padding-top: 70px;
+  border-top: #bcd0e5 1px solid;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.footer__item {
+  text-align: left;
+}
+
+.footer__item p {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 30px;
+  max-width: 280px;
+  margin-top: 0;
+}
+
+li a {
+  text-align: left;
+  margin-left: 0;
+}
+
+[type="tel"] {
+  border: #bcd0e5 1px solid;
+  height: 55px;
+  width: 280px;
+  margin: 15px 0;
+}
+
+::placeholder {
+  color: #bcd0e5;
+  padding: 5px;
+}
+
+footer button {
+  margin-left: 0;
+}
