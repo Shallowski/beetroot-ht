@@ -1,0 +1,14 @@
+@mixin font-set($font, $font-weight, $font-size, $color) {
+  font-family: $font;
+  font-weight: $font-weight;
+  font-size: $font-size;
+  color: $color;
+}
+
+@mixin frame-styling($top, $right, $bottom, $left, $border) {
+  top: $top;
+  right: $right;
+  bottom: $bottom;
+  left: $left;
+  border-width: $border;
+}

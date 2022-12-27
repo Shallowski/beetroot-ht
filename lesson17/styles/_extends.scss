@@ -1,0 +1,15 @@
+%decoration-line {
+  content: "";
+  position: absolute;
+  width: 10px;
+  height: 4px;
+  background-color: $primary-color;
+  top: -2px;
+}
+
+%content-block-size {
+  width: 430px;
+  height: 430px;
+}
+
+

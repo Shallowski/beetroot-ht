@@ -1,0 +1,80 @@
+.description {
+  @extend %content-block-size;
+
+  h3 {
+    @include font-set("Roboto", 900, $font36, $headers-color);
+    line-height: $font36;
+    margin: 25px 0;
+  }
+
+  &__divider {
+    width: 100px;
+    border-top: 1px solid $primary-color;
+    margin: 0 auto;
+  }
+
+  h4 {
+    @include font-set("Raleway", 400, $font24, $headers-color);
+    line-height: $font24;
+    margin: 25px 0;
+  }
+
+  p {
+    @include font-set("Raleway", 500, $font14, $description-color);
+    line-height: 24px;
+  }
+
+  &__decore {
+    width: 20px;
+    border: 2px solid $primary-color;
+    margin: 0 auto;
+    position: relative;
+    background-color: $primary-color;
+
+    &::before {
+      @extend %decoration-line;
+      left: -16px;
+    }
+
+    &::after {
+      @extend %decoration-line;
+      right: -16px;
+    }
+  }
+
+  button {
+    @include font-set("Open Sans", 700, $font14, $headers-color);
+    padding: 5px 10px;
+    text-transform: uppercase;
+    background-color: white;
+    border: 1px solid $primary-color;
+    cursor: pointer;
+    margin-top: 30px;
+
+    &:hover {
+      transform: scale(1.02);
+    }
+
+    &:active {
+      border-width: 3px;
+    }
+  }
+}
+
+.social {
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+  list-style-type: none;
+  margin: 30px;
+  padding: 0;
+
+  &__icon {
+    height: 30px;
+    width: 30px;
+  }
+
+  &__icon:hover {
+    transform: scale(1.1);
+  }
+}
